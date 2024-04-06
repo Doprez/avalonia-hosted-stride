@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGame5.Windows", "MyGame5.Windows\MyGame5.Windows.csproj", "{3A2DFC24-38BD-4922-AA3E-3F5D00FF8016}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGame5", "MyGame5\MyGame5.csproj", "{2480DC64-6008-4521-ABEF-A7AD431475CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGame5.Avalonia", "MyGame5.Avalonia\MyGame5.Avalonia.csproj", "{49C4ED47-0DAC-421A-8CBB-3377CFEA027D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGame5.Avalonia.Desktop", "MyGame5.Avalonia.Desktop\MyGame5.Avalonia.Desktop.csproj", "{FF406D7D-D85C-4F74-8C42-40456BD7AE77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A2DFC24-38BD-4922-AA3E-3F5D00FF8016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2DFC24-38BD-4922-AA3E-3F5D00FF8016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2DFC24-38BD-4922-AA3E-3F5D00FF8016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2DFC24-38BD-4922-AA3E-3F5D00FF8016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2480DC64-6008-4521-ABEF-A7AD431475CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2480DC64-6008-4521-ABEF-A7AD431475CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2480DC64-6008-4521-ABEF-A7AD431475CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2480DC64-6008-4521-ABEF-A7AD431475CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C4ED47-0DAC-421A-8CBB-3377CFEA027D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C4ED47-0DAC-421A-8CBB-3377CFEA027D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C4ED47-0DAC-421A-8CBB-3377CFEA027D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C4ED47-0DAC-421A-8CBB-3377CFEA027D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF406D7D-D85C-4F74-8C42-40456BD7AE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF406D7D-D85C-4F74-8C42-40456BD7AE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF406D7D-D85C-4F74-8C42-40456BD7AE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF406D7D-D85C-4F74-8C42-40456BD7AE77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
