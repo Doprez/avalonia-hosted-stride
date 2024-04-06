@@ -1,4 +1,5 @@
 ﻿using Avalonia.Controls;
+using Avalonia.Input;
 using Avalonia.Platform;
 using Stride.Engine;
 using Stride.Games;
@@ -15,7 +16,20 @@ public partial class MainView : NativeControlHost
     public MainView()
     {
         InitializeComponent();
+		PointerMoved += MainView_PointerMoved;
+		PointerPressed += MainView_PointerPressed;
     }
+
+	private void MainView_PointerPressed(object? sender, PointerPressedEventArgs e)
+	{
+		
+	}
+
+	private void MainView_PointerMoved(object? sender, PointerEventArgs e)
+	{
+		var pos = e.GetPosition(this);
+		_sdlWindow.RelativeCursorPosition = new Stride.Core.Mathematics.Point((int)pos.X, (int)pos.Y);
+	}
 
 	protected override IPlatformHandle CreateNativeControlCore(IPlatformHandle parent)
 	{
@@ -23,7 +37,7 @@ public partial class MainView : NativeControlHost
 		_sdlWindow = new Stride.Graphics.SDL.Window("MyGame5", parent.Handle);
 		var context = new GameContextSDL(_sdlWindow, _sdlWindow.Size.Width, _sdlWindow.Size.Height);
 
-		_game = new Game();
+		_game = new AvaloniaGame(this);
 
 		Task.Factory.StartNew(() =>
 		{

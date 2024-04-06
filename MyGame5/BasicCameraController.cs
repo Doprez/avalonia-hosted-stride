@@ -55,6 +55,12 @@ namespace MyGame5
         {
             ProcessInput();
             UpdateTransform();
+            UpdateDebug();
+		}
+
+        private void UpdateDebug()
+        {
+            DebugText.Print($"MouseInfo Mouse: {Input.MousePosition} Delta: {Input.MouseDelta}", new Int2(50, 50));
         }
 
         private void ProcessInput()
